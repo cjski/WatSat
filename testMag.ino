@@ -73,7 +73,7 @@ void loop() {
      delay(5000);
      Serial.println("Calculating Ext Mag Field");
    }
-   if(count >= 80){
+   if(count >= 120){
       Serial.print("x: ");
       Serial.print(mFieldx/(count-40));
       Serial.print("  y: ");
